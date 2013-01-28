@@ -11,7 +11,7 @@ $mongo_loaded = true
 require File.dirname(__FILE__) + '/lib/google_oauth'
 require File.dirname(__FILE__) + '/lib/utilities'
 require File.dirname(__FILE__) + '/app'
-load './collections/my_routes.rb'
+load './routes/main.rb'
 Dir["models/*.rb"].each {|file| load "./#{file}"}
 
 
@@ -22,4 +22,4 @@ if ENV['RACK_ENV'] == 'development'
 end
 
 ########Start The App
-run SinatraSkeleton::Application
+run Blog::Application

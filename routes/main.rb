@@ -1,4 +1,4 @@
-module SinatraSkeleton
+module Blog
   class Application < Sinatra::Base  
 
     # include GoogleOauth

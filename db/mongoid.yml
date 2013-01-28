@@ -1,6 +1,6 @@
 development:
   sessions:
     default:
-      database: mongoid
+      database: ruby-blog
       hosts:
         - localhost:27017
