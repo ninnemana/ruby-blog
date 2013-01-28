@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 gem "sinatra", :require => "sinatra/base"
 gem 'sinatra-contrib', :require => 'sinatra/contrib/all'
 gem 'susy'
-gem 'echoe'
 
 gem "mongoid", "~> 3.0.0"
 
