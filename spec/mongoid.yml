@@ -1,0 +1,6 @@
+test: test
+  sessions:
+    default:
+      database: project_database_test
+      hosts:
+        - localhost:27107

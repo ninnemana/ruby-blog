@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, 
+	minimum-scale=1.0" />
+    <link href="./stylesheets/screen.css" media="screen, projection" rel="stylesheet" 
+	type="text/css" />
+  </head>
+  <body>
+	<div class="container">
+	  <heading>PHONE NUMBER LISTING</heading>
+	  <div class="content">
+		<div class="main">
+		  <ol>
+	        <% @bands.each do |b| %>
+	          <li style="padding:4px"><%= b.name %></li>
+	        <% end %>
+	      </ol>
+	    </div>
+	  </div>
+	</div>
+  </body>
+</html>
